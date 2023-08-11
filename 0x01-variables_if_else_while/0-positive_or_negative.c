@@ -15,20 +15,20 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-if (n < 0)
-/*if its negative print negative*/
+if (n > 0)
+/*if its positive print positive*/
 {
-printf("%d is negative", n);
+printf("%d is positive\n", n);
 }
 else if (n == 0)
 /*if it is equal to zero print zero*/
 {
-printf("%d is zero", n);
+printf("%d is zero\n", n);
 }
 else
-/*if it is positive print positive*/
+/*if it is negative print negative*/
 {
-printf("%d is positive", n);
+printf("%d is negative\n", n);
 }
 return (0);
 }
