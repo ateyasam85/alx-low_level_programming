@@ -9,7 +9,7 @@
 int main(void)
 {
 char i, e, q;
-e ='e';
+e = 'e';
 q = 'q';
 for (i = 'a'; i <= 'z'; i++)
 {
