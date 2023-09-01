@@ -4,6 +4,8 @@
  *@s: The string to be printed
  */
 void _print_rev_recursion(char *s)
+
+	int _putchar;
 {
 	if (*s)
 	{
